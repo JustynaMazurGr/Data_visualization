@@ -45,3 +45,22 @@ TASK 6: The Zoo dataset from the UCI Machine Learning Repository is provided. Th
 * The number of animals that are predators.
 * The number of animals that are venomous.
 * The number of animals that have a tail.
+*************************************************
+
+TASK 7: In the optimization problem of selecting strategies for a set of players, three algorithms have been implemented. Each algorithm generated a total of 100 different solutions. The key aspect of the solution is the highest available probability of strategy selection (data from the file). Plot the results on a scatter plot. Apply the following methods to improve the readability of the graph:
+
+Faceting.
+Sampling (select a sample size of approximately 20-25% of the entire set).
+Present the results on the graph using four different point sizes: smallest - if the probability of selection is less than 0.25, larger - for probabilities in the range (0.25, 0.5], large - for probabilities in the range (0.5, 0.75], largest - for probabilities above 0.75.
+************************************************
+
+TASK 8: Prepare and save to a file 3D plots of the following functions:
+
+Alpine "2" function:
+f(x, y) = cos(x) * x * (1 + cos(y)^2)
+
+Schubert function:
+f(x, y) = ((cos(2 * x + 1)) + (2 * cos(3 * x + 2)) + (3 * cos(4 * x + 3)) + (4 * cos(5 * x + 4)) + (5 * cos(6 * x + 5))) * ((cos(2 * y + 1)) + (2 * cos(3 * y + 2)) + (3 * cos(4 * y + 3)) + (4 * cos(5 * y + 4)) + (5 * cos(6 * y + 5)))
+
+Rastrigin function:
+f(x, y) = (x^2 - cos(18 * π * x)) + (y^2 - cos(18 * π * y))
